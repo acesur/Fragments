@@ -4,33 +4,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Fragment.SumFragment">
+    android:background="@color/colorPrimary"
+    tools:context=".Fragment.CircleFragment">
 
-   <!--  TODO: Update blank fragment layout
+ <!--   &lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />-->
-
+        android:text="Area of Circle" />-->
     <EditText
-        android:id="@+id/etFirst"
+        android:id="@+id/etRadius"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter First Number"
+        android:hint="Enter Radius"
         android:gravity="center"
-        android:layout_margin="10dp"/>
-    <EditText
-        android:id="@+id/etSecond"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter Second Number"
-        android:gravity="center"
-        android:layout_margin="10dp"/>
+        android:layout_margin="10dp"
+        />
     <Button
-        android:id="@+id/btnCalculate"
+        android:id="@+id/btnAreaOfCircle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Calculate"
+        android:text="Area of Circle"
         android:layout_margin="10dp"/>
 
 
